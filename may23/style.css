@@ -1,0 +1,25 @@
+.info-card {
+  border: 2px solid #4a90e2;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-left: 16px;
+    padding-right: 16px;
+}
+
+#card1 {
+  background-color: lightblue;
+  color: white;
+}
+
+#card2 {
+  background-color: purple;
+}
+
+
+.action-btn{
+    background: #4a90e2;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+}
