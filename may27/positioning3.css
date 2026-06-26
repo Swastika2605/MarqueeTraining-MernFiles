@@ -1,0 +1,29 @@
+*{
+
+}
+
+.page-1 {
+    height: 300vh;
+    width: auto;
+    background: bisque;
+}
+
+.page-2 {
+    height: 300vh;
+    width: auto;
+    background: burlywood;
+}
+
+.page-3 {
+    height: 300vh;
+    width: auto;
+    background: coral;
+}
+
+#fix {
+    
+}
+
+#sticky {
+
+}

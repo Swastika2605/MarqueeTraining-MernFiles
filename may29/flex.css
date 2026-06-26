@@ -1,0 +1,23 @@
+.main{
+    background-color: beige;
+    height: 100vh;
+}
+
+.box-container{
+    background-color: green;
+    height: 100vh;
+    gap: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    background-color: blue;
+    color: white;
+    height: 100px;
+    width: 100px;
+    border: 1px  solid white;
+    border-radius: 10px;
+    padding: 10px;
+}

@@ -1,4 +1,4 @@
-html {
+/* html {
     font-size: 20px;
 }
 
@@ -18,3 +18,36 @@ html {
     font-weight: 600;
     color: blue;
 }
+
+.parent {
+    width: 100vw;
+    border: 1px dashed red;
+    text-align: center;
+    font-size: 20px;
+    background-color: gray;
+    color: white;
+    height: 100vh;
+}
+
+.sec-paragraph {
+    font-size: 2em;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-radius: 20px;
+    background-color: red;
+}
+ */
+
+ .box {
+    border: 1px dashed pink;
+    color: white;
+    background-color: tomato;
+    padding: 20px;
+    margin: 20px;
+    align-items: center;
+    width: 20vw;
+    height: 40vh;
+    /* display: block; */
+    /* display: inline; */
+    display: inline-block;
+ }

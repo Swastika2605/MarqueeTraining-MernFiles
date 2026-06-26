@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    background-color: rgb(27, 241, 191);
+}
+
+.box-container{
+    background-color: rgb(251, 70, 188);
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    gap: 40px;
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(69, 215, 222);
+    padding: 100px 80px;
+    border-radius: 15px;
+    color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#box1{
+    /*relative changes the position of the element with respect to its normal position. */
+    position: relative;
+    top: 40px;
+    
+}
+
+#box2{
+    position: absolute;
+
+}
+
+#box3{
+    position: relative;
+    top: 40px;
+    left: 80px;
+}
+#box4{
+    position: static;
+    top: 40px;
+    left: 80px;
+}
